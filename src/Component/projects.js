@@ -32,7 +32,7 @@ function projects() {
             </p>
         
             <Link 
-              to="./Project_info"
+              to="/Project_info"
               class="btn btn--med btn--theme dynamicBgClr"       
               // target="_blank"
               >Case Study
@@ -59,7 +59,7 @@ function projects() {
               praesentium.
             </p>
             <Link 
-              to="./Project_info"
+              to="/Project_info"
               class="btn btn--med btn--theme dynamicBgClr"       
               // target="_blank"
               >Case Study
@@ -83,7 +83,7 @@ function projects() {
               praesentium.
             </p>
             <Link 
-              to="./Project_info"
+              to="/Project_info"
               class="btn btn--med btn--theme dynamicBgClr"       
               // target="_blank"
               >Case Study
