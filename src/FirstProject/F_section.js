@@ -1,4 +1,6 @@
 import "../Css/project.css"
+import Project_1 from "../assets/png/project_1.png"
+
 // import circle from "../assets/png/circle"
 
 function F_section() {
@@ -18,13 +20,12 @@ function F_section() {
         <h1 class="heading-primary">Project 1</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Spotify is a custom software engineering company that creates
-            innovative solutions for complex problems solutions for complex
-            problems
+            Cial is a dynamic web application that combines the power of HTML, CSS, and JavaScript
+                 to deliver a user-friendly and interactive financial services platform. 
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="#" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://vishesh425.github.io/Cial/" class="btn btn--bg" target="_blank">Live Link</a>
         </div>
       </div>
     </section></>
