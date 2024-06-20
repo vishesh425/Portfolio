@@ -1,4 +1,5 @@
 import example_img from '../assets/jpeg/project-mockup-example.jpeg'
+import Project_1 from "../assets/png/project_1.png"
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function projects() {
@@ -17,7 +18,7 @@ function projects() {
         <div class="projects__row">
           <div class="projects__row-img-cont">
             <img
-              src={example_img}
+              src={Project_1}
               alt="Software Screenshot"
               class="projects__row-img"
               loading="lazy"
