@@ -2,7 +2,7 @@ import github from "../assets/png/github-ico.png"
 import insta from "../assets/png/insta-ico.png"
 import yt from "../assets/png/yt-ico.png"
 import linkedin from "../assets/png/linkedin-ico.png"
-import twitter from "../assets/png/email-ico.png"
+import Email from "../assets/png/email-ico.png"
 import common from "../assets/svg/common-bg.svg"
 
 
@@ -66,7 +66,7 @@ function first_section() {
         <div className="home-hero__social">
           <a href="#" target="_blank" className="home-hero__social-icon-link">
             <img
-              src={twitter}
+              src={Email}
               alt="icon"
               className="home-hero__social-icon"
               onClick={handleClick} 

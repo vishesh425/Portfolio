@@ -11,7 +11,8 @@ function contactus() {
             </span>
           </h2>
           <div class="contact__form-container">
-            <form action="#" class="contact__form">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+            <input type="hidden" name="access_key" value="a273b847-880e-4805-9f59-f6db10adc298"></input>
               <div class="contact__form-field">
                 <label class="contact__form-label" for="name">Name</label>
                 <input
