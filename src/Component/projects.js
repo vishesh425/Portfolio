@@ -10,8 +10,8 @@ function projects() {
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+          {/* Featuring web development projects that demonstrate skills in creating dynamic, 
+          responsive, and user-friendly web applications. */}
           </span>
         </h2>
 
@@ -28,9 +28,8 @@ function projects() {
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Collection</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+              Featuring web development projects that demonstrate skills in creating dynamic,
+               responsive, and user-friendly web applications
               </p>
 
               <Link
@@ -44,7 +43,7 @@ function projects() {
 
 
 
-          <div class="projects__row">
+          {/* <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
                 src={example_img}
@@ -67,7 +66,9 @@ function projects() {
               >Case Study
               </Link>
             </div>
-          </div>
+          </div> */}
+
+{/* 
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
@@ -91,7 +92,9 @@ function projects() {
               >Case Study
               </Link>
             </div>
-          </div>
+          </div> */}
+
+
         </div>
       </div>
     </section>
