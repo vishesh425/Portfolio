@@ -60,7 +60,7 @@ function projects() {
                 praesentium.
               </p>
               <Link
-                to="/Project_view"
+                to="/Project_vieww"
                 class="btn btn--med btn--theme dynamicBgClr"
               // target="_blank"
               >Case Study

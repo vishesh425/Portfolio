@@ -1,45 +1,38 @@
 // src/components/GridData.js
-import Cial from "../assets/png/project_1.png"
-export const gridData = [
-    {
-      id: 1,
-      title: "Cial",
-      // description: "A beautiful mountain view during sunset.",
-      imgUrl:Cial,
-      link:"/Project_info",
-      link_label: "Case Study", 
-    },
+import Cial from "../assets/png/project_1.png";
 
-    { 
-      id: 2,
-      title: "Cial",
-      description: "A sunny beach with crystal-clear water.",
-      imgUrl: "https://via.placeholder.com/150",
-      link:"",
-      link_label: "Case Study", 
-    },
-    {
-      id: 3,
-      title: "Forest",
-      description: "A dense forest with tall trees and greenery.",
-      imgUrl: "https://via.placeholder.com/150",
-      link:"",
-      link_label: "Case Study", 
-    },
-    {
-      id: 4,
-      title: "City Skyline",
-      description: "A breathtaking view of the city skyline at night.",
-      imgUrl: "https://via.placeholder.com/150",
-      link:"",
-      link_label: "Case Study", 
-    },
-    {
-      id: 5,
-      title: "City Skyline",
-      description: "A breathtaking view of the city skyline at night.",
-      imgUrl: "https://via.placeholder.com/150",
-      link:""
-    }
-  ];
-  
+export const projects = [
+  {
+    id: 1,
+    title: "Cial",
+    description: "Description of Project One",
+    image: Cial, // Replace with your image URL
+    link: "/Project_info",
+    link_label: "Case Study",
+  },
+  // {
+  //   id: 2,
+  //   title: "Project Two",
+  //   description: "Description of Project Two",
+  //   image: Cial,
+  //   link: "/Project_info",
+  //   link_label: "Case Study",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Project Three",
+  //   description: "Description of Project Three",
+  //   image: "https://via.placeholder.com/300",
+  //   link: "/Project_info",
+  //   link_label: "Case Study",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Project Four",
+  //   description: "Description of Project Four",
+  //   image: "https://via.placeholder.com/300",
+  //   link: "/Project_info",
+  //   link_label: "Case Study",
+  // },
+  // Add more projects as needed
+];
