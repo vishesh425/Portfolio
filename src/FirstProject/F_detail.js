@@ -40,7 +40,7 @@ function F_detail(){
                   <div class="skills__skill">GIT</div>
                   {/* <div class="skills__skill">Shopify</div>
                   <div class="skills__skill">Wordpress</div> */}
-                  <div class="skills__skill">Google Map</div>
+                  {/* <div class="skills__skill">Google Map</div> */}
                   {/* <div class="skills__skill">Facebook Ads</div> */}
                   {/* <div class="skills__skill">Android</div>
                   <div class="skills__skill">IOS</div> */}

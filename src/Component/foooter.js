@@ -66,14 +66,14 @@ function footer() {
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Vishesh Parmar</h4>
             <p class="main-footer__short-desc">
-              Frontend developer passionate about crafting engaging user
-              experiences through self-learning projects
+              Thank you for visiting! I'm a dedicated web developer ready to
+              contribute and grow with meaningful projects and teams.
             </p>
           </div>
         </div>
 
         <div class="main-footer__lower">
-          &copy; Copyright 2024. Made by{" "}
+          &copy; Copyright 2024. Made by
           <a
             rel="noreferrer"
             target="_blank"

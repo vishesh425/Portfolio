@@ -1,5 +1,6 @@
 // src/components/GridData.js
 import Cial from "../assets/png/project_1.png";
+import Restaurant from "../assets/png/project_2.png";
 
 export const projects = [
   {
@@ -8,6 +9,14 @@ export const projects = [
     description: "Description of Project One",
     image: Cial, // Replace with your image URL
     link: "/Project_info",
+    link_label: "Case Study",
+  },
+  {
+    id: 2,
+    title: "Restaurant Landing Page",
+    description: "Description of Project One",
+    image: Restaurant, // Replace with your image URL
+    link: "/S_Project_info",
     link_label: "Case Study",
   },
   // {

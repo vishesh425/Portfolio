@@ -39,6 +39,8 @@ function first_section() {
               A passionate frontend developer with a keen eye for crafting
               engaging user experiences. With a solid foundation in frontend
               technologies and a drive for continuous learning.
+
+              {/* I am a self-motivated web developer with knowledge of ReactJS, NodeJS, API development, and MySQL. */}
             </p>
           </div>
           <div className="home-hero__cta">

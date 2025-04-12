@@ -1,5 +1,6 @@
 import "../Css/style.css";
 import line from "../assets/svg/ham-menu.svg";
+import profile from "../assets/jpeg/profile.jpeg"
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
@@ -15,11 +16,13 @@ function Header() {
       <div className="header__content">
         <div className="header__logo-container">
           <div className="header__logo-img-cont dynamicBgClr">
-            <img
-              src="./assets/png/john-doe.png"
-              alt="Vishesh Parmar Logo Image"
-              className="header__logo-img"
-            />
+            <Link to="/">
+              <img
+                src={profile}
+                alt="Vishesh Parmar Logo Image"
+                className="header__logo-img"
+              />
+            </Link>
           </div>
           <span className="header__logo-sub">Vishesh Parmar</span>
         </div>
@@ -27,7 +30,7 @@ function Header() {
           <ul className="header__links">
             <li className="header__link-wrapper">
               <Link to="/" className="header__link">
-                             Home
+                Home
               </Link>
             </li>
             <li className="header__link-wrapper">
@@ -37,12 +40,12 @@ function Header() {
             </li>
             <li className="header__link-wrapper">
               <Link to="./#projects" className="header__link">
-                            Projects
+                Projects
               </Link>
             </li>
             <li className="header__link-wrapper">
               <Link to="./#contact" className="header__link">
-                             Contact
+                Contact
               </Link>
             </li>
           </ul>
